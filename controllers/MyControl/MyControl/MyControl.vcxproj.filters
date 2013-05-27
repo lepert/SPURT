@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WebotsCpp">
+      <UniqueIdentifier>{303b2a54-d434-416f-b251-22be502c40a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenarios">
+      <UniqueIdentifier>{4ca451cc-c03b-4f1d-b1e6-ae6f31753937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Scenarios">
+      <UniqueIdentifier>{bcaea2ae-468f-424f-bbdd-b7d04d5d1dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExtPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GoalKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NaoCam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlankAttack.cpp">
+      <Filter>Source Files\Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="FullDefence.cpp">
+      <Filter>Source Files\Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="Race.cpp">
+      <Filter>Source Files\Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="Rush.cpp">
+      <Filter>Source Files\Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenario.cpp">
+      <Filter>Source Files\Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplePass.cpp">
+      <Filter>Source Files\Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Accelerometer.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Camera.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Compass.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Connector.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Device.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\DifferentialWheels.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Display.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\DistanceSensor.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Emitter.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Field.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\GPS.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Gyro.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\LED.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\LightSensor.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Motion.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Node.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Pen.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Receiver.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Robot.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Servo.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Supervisor.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\TouchSensor.cpp">
+      <Filter>Source Files\WebotsCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtPlayer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldPlayer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoalKeeper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NaoCam.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlankAttack.hpp">
+      <Filter>Header Files\Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="FullDefence.hpp">
+      <Filter>Header Files\Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="Race.hpp">
+      <Filter>Header Files\Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="Rush.hpp">
+      <Filter>Header Files\Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenario.hpp">
+      <Filter>Header Files\Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplePass.hpp">
+      <Filter>Header Files\Scenarios</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

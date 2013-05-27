@@ -1,0 +1,9 @@
+HeadYaw HeadPitch
+
+RShoulderPitch RShoulderRoll RElbowYaw RElbowRoll
+
+LShoulderPitch LShoulderRoll LElbowYaw LElbowRoll
+
+RHipYawPitch RHipRoll RHipPitch RKneePitch RAnklePitch RAnkleRoll
+
+LHipYawPitch

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="webotsExt">
+      <UniqueIdentifier>{2c5aff53-9975-49a3-8e40-4c859a123dd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Accelerometer.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Camera.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Compass.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Connector.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Device.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\DifferentialWheels.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Display.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\DistanceSensor.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Emitter.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Field.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\GPS.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Gyro.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\LED.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\LightSensor.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Motion.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Node.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Pen.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Receiver.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Robot.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Servo.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Supervisor.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\TouchSensor.cpp">
+      <Filter>webotsExt</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleRobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardKinematics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseKinematics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StepGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZMPEKF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Step.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorAngles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkingLeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gait.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralSensors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WBSensorsTranslator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleEKF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WalkingArm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SampleRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="description.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardKinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseKinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StepGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GaitDefaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZMPEKF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Step.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EKFStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorAngles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkingLeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkingConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralSensors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WBSensorsTranslator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleEKF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WalkingArm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

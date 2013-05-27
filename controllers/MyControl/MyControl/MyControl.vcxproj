@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{080ABEE7-2229-45E4-957B-ED13E22DFF04}</ProjectGuid>
+    <RootNamespace>MyControl</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\webots\Webots\include\controller\cpp;D:\webots\Webots\include\controller\c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Controller.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\webots\Webots\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Accelerometer.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Camera.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Compass.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Connector.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Device.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\DifferentialWheels.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Display.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\DistanceSensor.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Emitter.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Field.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\GPS.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Gyro.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\LED.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\LightSensor.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Motion.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Node.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Pen.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Receiver.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Robot.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Servo.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\Supervisor.cpp" />
+    <ClCompile Include="..\..\..\..\Webots\projects\languages\cpp\src\TouchSensor.cpp" />
+    <ClCompile Include="ExtPlayer.cpp" />
+    <ClCompile Include="FieldPlayer.cpp" />
+    <ClCompile Include="GoalKeeper.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessageQueue.cpp" />
+    <ClCompile Include="MyControl.cpp" />
+    <ClCompile Include="MyPoint.cpp" />
+    <ClCompile Include="NaoCam.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerAction.cpp" />
+    <ClCompile Include="PlayerState.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="WorldInfo.cpp" />
+    <ClCompile Include="FlankAttack.cpp" />
+    <ClCompile Include="FullDefence.cpp" />
+    <ClCompile Include="Race.cpp" />
+    <ClCompile Include="Rush.cpp" />
+    <ClCompile Include="Scenario.cpp" />
+    <ClCompile Include="SimplePass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.hpp" />
+    <ClInclude Include="convert.h" />
+    <ClInclude Include="ExtPlayer.hpp" />
+    <ClInclude Include="FieldPlayer.hpp" />
+    <ClInclude Include="GoalKeeper.hpp" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="MessageQueue.h" />
+    <ClInclude Include="MyPoint.hpp" />
+    <ClInclude Include="NaoCam.hpp" />
+    <ClInclude Include="player.hpp" />
+    <ClInclude Include="PlayerAction.hpp" />
+    <ClInclude Include="PlayerState.hpp" />
+    <ClInclude Include="Trigger.hpp" />
+    <ClInclude Include="WorldInfo.hpp" />
+    <ClInclude Include="FlankAttack.hpp" />
+    <ClInclude Include="FullDefence.hpp" />
+    <ClInclude Include="Race.hpp" />
+    <ClInclude Include="Rush.hpp" />
+    <ClInclude Include="Scenario.hpp" />
+    <ClInclude Include="SimplePass.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

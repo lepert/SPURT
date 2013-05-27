@@ -1,0 +1,12 @@
+syntax: glob
+*.o
+*.obj
+*.exe
+*.manifest
+*.txt
+*.user
+*.vcproj
+*.dll
+*.lib
+
+Debug/*.*

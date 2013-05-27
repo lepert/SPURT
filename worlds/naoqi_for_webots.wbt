@@ -1,0 +1,70 @@
+#VRML_SIM V6.0 utf8
+WorldInfo {
+  info [
+    "Walking"
+    "Anna Dupliak"
+    "Date: 10 03 2013"
+  ]
+  title "Walking module for Webots"
+  basicTimeStep 40
+  displayRefresh 1
+  runRealTime TRUE
+}
+Viewpoint {
+  orientation -0.0104143 2 -1 0
+  position 0 0.4 2
+  follow "webots1"
+}
+Background {
+  skyColor [
+    0.435294 0.4 0.317647
+  ]
+}
+NaoV3H {
+  controller "simpleStabControl"
+}
+Ball {
+  translation 0 0.0325 1.7
+}
+Wall {
+  translation 0 0 3
+}
+Painting1 {
+  translation 0 1.7 2.8
+  rotation 0 1 0 3.1415
+}
+PottedTree {
+  translation -2.1 0.0325 0.1
+}
+
+FloorLight {
+  translation 1.45429 0 0.970242
+  pointLightAmbientIntensity 1
+  pointLightCastShadows TRUE
+}
+DEF FLOOR Solid {
+  children [
+    Transform {
+      translation -5 0 -5
+      children [
+        Shape {
+          geometry ElevationGrid {
+            color Color {
+              color [
+                0.101961 0.101961 0.101961
+                0.647059 0.164706 0.164706
+              ]
+            }
+            xDimension 21
+            xSpacing 0.5
+            zDimension 21
+            zSpacing 0.5
+          }
+        }
+      ]
+    }
+  ]
+  boundingObject Plane {
+    size 10 10
+  }
+}
